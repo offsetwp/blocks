@@ -9,13 +9,25 @@
             "email": "jerome.wohlschlegel@gmail.com"
         }
     ],
+    "keywords": [
+        "wordpress",
+        "gutenberg",
+        "offset",
+        "block"
+    ],
+    "homepage": "https://github.com/offsetwp/blocks",
+    "support": {
+        "issues": "https://github.com/offsetwp/blocks/issues",
+        "source": "https://github.com/offsetwp/blocks",
+        "docs": "https://github.com/offsetwp/blocks"
+    },
     "autoload": {
         "psr-4": {
             "Offset\\": "lib/"
         }
     },
     "require": {
-        "php": ">=7.*",
+        "php": ">=7.0",
         "cocur/slugify": "^4.0"
     }
 }
