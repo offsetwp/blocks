@@ -1,0 +1,21 @@
+{
+    "name": "offset/blocks",
+    "type": "package",
+    "description": "Create Gutenberg blocks more easily",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérôme Wohlschlegel",
+            "email": "jerome.wohlschlegel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Offset\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=7.*",
+        "cocur/slugify": "^4.0"
+    }
+}
